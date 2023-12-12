@@ -1,0 +1,48 @@
+@viewport {
+  width: device-width;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+:root {
+  font-family: "Arial", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  /* margin-top: 0; */
+}
+body {
+  background-color: #fff;
+}
+main {
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#button {
+  top: 50%;
+  left: 50%;
+  border: 10px solid black;
+  width: 270px;
+  height: 90px;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 1.6rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+}
+#button:active {
+  background-color: #000;
+  transition: background-color 0.5s;
+  color: #fff;
+  border-color: #fff;
+  box-shadow: 0 0 40px 20px yellow;
+}
